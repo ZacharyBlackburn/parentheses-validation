@@ -45,7 +45,7 @@ test('Expects return value to be true - string has properly open and closed nest
   expect(parenthesesValidator("(()Hello(())World()!)")).toBe(true);
 });
 
-// test string with open and closed parentheses surrounding a sentence and nested parentheses
+// test string with incorrect open and closed parentheses surrounding a sentence
 test('Expects return value to be false - string does not have properly open and closed nested parentheses', () => {
   expect(parenthesesValidator(")Hello World!)")).toBe(false);
 });
