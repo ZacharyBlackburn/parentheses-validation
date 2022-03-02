@@ -1,0 +1,29 @@
+{
+  "name": "parentheses-validation",
+  "version": "1.0.0",
+  "description": "A function that validates if the parentheses in a string are properly nested and closed",
+  "main": "parenthesesValidator.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZacharyBlackburn/parentheses-validation.git"
+  },
+  "keywords": [
+    "jest",
+    "javascript",
+    "parentheses"
+  ],
+  "author": "Zachary Blackburn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZacharyBlackburn/parentheses-validation/issues"
+  },
+  "homepage": "https://github.com/ZacharyBlackburn/parentheses-validation#readme",
+  "dependencies": {
+    "-": "^0.0.1",
+    "jest": "^27.5.1",
+    "save-dev": "^0.0.1-security"
+  }
+}
